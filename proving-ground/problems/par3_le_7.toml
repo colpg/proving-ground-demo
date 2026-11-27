@@ -1,0 +1,12 @@
+id = "par3_le_7"
+kind = "settle"
+theorem = "Demo.par3_le_7"
+statement = "Demo.par3_le_7.Statement"
+level = "open"
+places = 3
+uses = []
+fidelity = "confirmed"
+note = "Truth not known to this goal. The circuit held has 8 gates. Prove it or refute it."
+
+[source]
+in_words = "Parity of three bits has a circuit of at most 7 gates."

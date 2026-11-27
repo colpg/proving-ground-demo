@@ -1,0 +1,12 @@
+id = "maj3_le_4"
+kind = "construct"
+theorem = "Demo.maj3_le_4"
+statement = "Demo.maj3_le_4.Statement"
+level = "solid"
+places = 1
+uses = []
+fidelity = "confirmed"
+note = "The definition uses five gates as written. One gate can be saved by sharing."
+
+[source]
+in_words = "Majority of three bits has a circuit of at most 4 gates."

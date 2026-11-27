@@ -1,0 +1,12 @@
+id = "or3_le_2"
+kind = "construct"
+theorem = "Demo.or3_le_2"
+statement = "Demo.or3_le_2.Statement"
+level = "warm-up"
+places = 1
+uses = []
+fidelity = "confirmed"
+note = ""
+
+[source]
+in_words = "The disjunction of three bits has a circuit of two gates."

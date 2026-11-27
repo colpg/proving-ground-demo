@@ -1,0 +1,7 @@
+title = "Demo goal: small circuits for three Boolean functions"
+licence = "Apache-2.0"
+statements = "Demo.Statements"
+roots = ["xor2_exact"]
+permitted_axioms = ["propext", "Quot.sound", "Classical.choice"]
+may_import = ["Demo"]
+report_to = ""

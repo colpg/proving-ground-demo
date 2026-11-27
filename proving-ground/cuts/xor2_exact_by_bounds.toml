@@ -1,0 +1,4 @@
+id = "xor2_exact_by_bounds"
+parent = "xor2_exact"
+children = ["xor2_le_4", "xor2_not_le_3"]
+theorem = "Demo.xor2_exact_by_bounds"

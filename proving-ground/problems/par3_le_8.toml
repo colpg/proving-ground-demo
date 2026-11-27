@@ -1,0 +1,12 @@
+id = "par3_le_8"
+kind = "construct"
+theorem = "Demo.par3_le_8"
+statement = "Demo.par3_le_8.Statement"
+level = "solid"
+places = 1
+uses = []
+fidelity = "confirmed"
+note = "Two exclusive ors in a row."
+
+[source]
+in_words = "Parity of three bits has a circuit of at most 8 gates."

@@ -1,0 +1,12 @@
+id = "xor2_not_le_3"
+kind = "prove"
+theorem = "Demo.xor2_not_le_3"
+statement = "Demo.xor2_not_le_3.Statement"
+level = "hard"
+places = 3
+uses = []
+fidelity = "confirmed"
+note = "Open here. An exhaustive search over gate lists whose gates read existing wires found no such circuit; that search is evidence, not a proof."
+
+[source]
+in_words = "No circuit of 3 gates computes exclusive or of two bits."

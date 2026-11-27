@@ -1,0 +1,12 @@
+id = "run_length"
+kind = "prove"
+theorem = "Demo.run_length"
+statement = "Demo.run_length.Statement"
+level = "solid"
+places = 1
+uses = []
+fidelity = "confirmed"
+note = "Induction on the gate list, with the input generalised."
+
+[source]
+in_words = "Running a circuit adds one wire per gate."
