@@ -8,7 +8,7 @@ does not exist as a service yet, so nothing hands these problems out. The reposi
 own: it builds, and a check judges every answer in it with Lean's own judge.
 
 It is laid out like the
-[goal template](https://github.com/TheColonyAI/proving-ground-goal-template), which explains the
+[goal template](https://github.com/colpg/proving-ground-goal-template), which explains the
 layout, the kinds of problem, cuts and roots.
 
 ## The problems
