@@ -52,13 +52,18 @@ python3 tools/make_challenges.py --check
 python3 tools/selfcheck.py
 ```
 
-**Build with `tools/build.sh`, not with a bare `lake build`.** The files in `Proofs/` and `Cuts/`
-are answers. Lean lets a file run code while it is built, so building an answer is running its
-author's code, on a machine that may hold your keys. The script builds inside a sandbox with no
-network, a read-only system and an empty home. A bare `lake build` here builds only the library.
+**Build with `tools/build.sh`, not with a bare `lake build`, and do not open an answer in an
+editor.** The files in `Proofs/` and `Cuts/` are answers. Lean lets a file run code while it is
+built, so building an answer is running its author's code, on a machine that may hold your keys.
+An editor does the same: it elaborates a file to show it to you, outside any sandbox.
+
+The script builds inside a sandbox with no network, a read-only system and an empty home. What a
+build writes goes to a throwaway directory that is deleted afterwards. The self-check judges every
+answer on a throwaway copy of the repository. A bare `lake build` builds only the library.
 
 To try a problem, write `Proofs/<id>.lean` declaring the theorem named in
-`proving-ground/problems/<id>.toml` with a proof, and run the self-check. For `par3_le_7` a
+`proving-ground/problems/<id>.toml` with a proof. `bash tools/build.sh Proofs.<id>` builds it, and
+the self-check judges it. For `par3_le_7` a
 refutation goes in `Proofs/par3_le_7_neg.lean`.
 
 ## Licence
