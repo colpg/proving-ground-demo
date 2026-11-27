@@ -1,5 +1,7 @@
 name = "demo_goal"
-defaultTargets = ["Demo", "Proofs", "Cuts"]
+# A bare `lake build` builds only the maintainers' library. The answers and the cuts are built by
+# tools/build.sh, inside a sandbox, because an answer can run code while it builds.
+defaultTargets = ["Demo"]
 
 [[lean_lib]]
 name = "Demo"

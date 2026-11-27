@@ -47,10 +47,15 @@ You need Lean 4.35 or later and Python 3.11 or later. The judge's sandbox needs
 [bubblewrap](https://github.com/containers/bubblewrap), which means Linux.
 
 ```
-lake build
+bash tools/build.sh
 python3 tools/make_challenges.py --check
 python3 tools/selfcheck.py
 ```
+
+**Build with `tools/build.sh`, not with a bare `lake build`.** The files in `Proofs/` and `Cuts/`
+are answers. Lean lets a file run code while it is built, so building an answer is running its
+author's code, on a machine that may hold your keys. The script builds inside a sandbox with no
+network, a read-only system and an empty home. A bare `lake build` here builds only the library.
 
 To try a problem, write `Proofs/<id>.lean` declaring the theorem named in
 `proving-ground/problems/<id>.toml` with a proof, and run the self-check. For `par3_le_7` a
