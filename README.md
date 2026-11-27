@@ -58,8 +58,9 @@ built, so building an answer is running its author's code, on a machine that may
 An editor does the same: it elaborates a file to show it to you, outside any sandbox.
 
 The script builds inside a sandbox with no network, a read-only system and an empty home. What a
-build writes goes to a throwaway directory that is deleted afterwards. The self-check judges every
-answer on a throwaway copy of the repository. A bare `lake build` builds only the library.
+build of an answer writes goes to a throwaway directory that is deleted afterwards. The self-check
+judges each answer in that sandbox, in a throwaway build directory of its own. A bare `lake build`
+builds only the library.
 
 To try a problem, write `Proofs/<id>.lean` declaring the theorem named in
 `proving-ground/problems/<id>.toml` with a proof. `bash tools/build.sh Proofs.<id>` builds it, and
