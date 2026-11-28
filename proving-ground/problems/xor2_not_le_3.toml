@@ -6,7 +6,7 @@ level = "hard"
 places = 3
 uses = []
 fidelity = "confirmed"
-note = "Open here. An exhaustive search over gate lists whose gates read existing wires found no such circuit; that search is evidence, not a proof."
+note = "Open here. An exhaustive search over gate lists whose gates read existing wires found no such circuit; that search is evidence, not a proof. A wire that does not exist reads false, inside a gate and at the output alike."
 
 [source]
 in_words = "No circuit of 3 gates computes exclusive or of two bits."

@@ -6,7 +6,7 @@ level = "hard"
 places = 3
 uses = []
 fidelity = "confirmed"
-note = "Open here: nobody has proved it in this goal. The wire numbers a gate reads are unbounded, so the cases have to be argued and cannot simply be enumerated."
+note = "Open here: nobody has proved it in this goal. The wire numbers a gate reads are unbounded, so the cases have to be argued and cannot simply be enumerated. A wire that does not exist reads false, inside a gate and at the output alike."
 
 [source]
 in_words = "No single gate computes exclusive or of two bits."

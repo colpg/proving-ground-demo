@@ -6,7 +6,7 @@ level = "solid"
 places = 1
 uses = []
 fidelity = "confirmed"
-note = ""
+note = "A wire that does not exist reads false, inside a gate and at the output alike."
 
 [source]
 in_words = "A size bound stays a size bound when it grows."
