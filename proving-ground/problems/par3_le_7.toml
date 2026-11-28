@@ -6,7 +6,7 @@ level = "open"
 places = 3
 uses = []
 fidelity = "confirmed"
-note = "Truth not known to this goal. The circuit held has 8 gates. Prove it or refute it."
+note = "Truth not known to this goal. The circuit held has 8 gates. Prove it or refute it. A wire that does not exist reads false, inside a gate and at the output alike."
 
 [source]
 in_words = "Parity of three bits has a circuit of at most 7 gates."

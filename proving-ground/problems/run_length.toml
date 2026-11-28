@@ -6,7 +6,7 @@ level = "solid"
 places = 1
 uses = []
 fidelity = "confirmed"
-note = "Induction on the gate list, with the input generalised."
+note = "Induction on the gate list, with the input generalised. A wire that does not exist reads false, inside a gate and at the output alike."
 
 [source]
 in_words = "Running a circuit adds one wire per gate."
